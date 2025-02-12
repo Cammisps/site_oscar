@@ -1,0 +1,111 @@
+*{ 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header,
+section h2,
+form button,
+footer {
+font-family: "Noto Sans", serif;
+font-weight: <weight>;
+font-style: normal;
+}
+
+header {
+    padding: 16px 0;
+    background-color: rgba(10, 5, 5, 0.947);
+    color: goldenrod;
+}
+
+section h2,
+form h2 {
+    padding: 16px 0;
+    background-color: rgba(10, 5, 5, 0.947);
+    color: goldenrod;
+}
+
+header nav li {
+    display: inline;
+    text-align: right;
+    font-size: 18px;
+    margin-left: 16px;
+}
+
+header nav li a {
+    color: goldenrod;
+    text-decoration: none;
+    display: block;
+}
+
+.container {
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+header .container
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+section .container {
+    align-items: flex-start;
+}
+
+section {
+    padding: 24px 0;
+}
+
+section h2 .about-container {
+    margin-bottom:  16px;
+    text-align: right;
+}
+
+section p .about-container{
+margin-bottom: 8px;
+text-align: right;
+}
+
+.front-page {
+    width: 600px;
+    height: auto;
+    margin-right: 20px;
+}
+
+.about-container
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    
+}
+
+.text {
+    flex: 1;
+    text-align: left;
+}
+
+form button {
+    background-color: #613518cf;
+    color: #ecf0f1;
+    border: none;
+    cursor: pointer;
+    outline-color: #8c4d23c5;
+}
+
+form button:hover {
+    background-color: #8c4d23b5;
+}
+
+footer {
+    background-color: rgba(10, 5, 5, 0.947);
+    color: goldenrod;
+    padding: 16px 0;
+    text-align: right;
+}
+
